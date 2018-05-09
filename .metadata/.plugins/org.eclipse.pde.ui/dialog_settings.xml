@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item value="false" key="generateActivator"/>
+	<item value="false" key="uiPlugin"/>
+	<item value="false" key="rcpPlugin"/>
+	<item value="false" key="apiAnalysis"/>
+	<item value="" key="targetName"/>
+	<item value="false" key="osgiProject"/>
+	<list key="providers">
+		<item value="TEAMCENTER11"/>
+	</list>
+	<section name="quick_assist_proposal_size">
+	</section>
+	<section name="editBundleContainerWizard">
+		<item value="C:\Siemens\Teamcenter11\portal" key="location1"/>
+	</section>
+	<section name="pluginsView">
+	</section>
+	<section name="PDEFormActionManager">
+	</section>
+</section>

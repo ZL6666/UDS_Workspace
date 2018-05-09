@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension point="org.eclipse.ui.commands">
+   		<command name="My New Folder" 
+   			id="com.teamcenter8.demo.handlers.NewFolderHandler">
+   		</command>
+   </extension>
+   <extension
+         point="org.eclipse.ui.handlers">
+         <handler commandId="com.teamcenter8.demo.handlers.NewFolderHandler"
+         		class="com.teamcenter8.demo.handlers.NewFolderHandler">
+         		<!--
+         		<activeWhen>
+         			<with variable="activePartId" >
+         				<equals value="com.teamcenter.rac.ui.views.DetailsView"/>
+         			</with>
+         		</activeWhen>-->
+         </handler>
+   </extension>
+   <extension point="org.eclipse.ui.menus">
+   		<!--
+         <menuContribution locationURI="menu:com.teamcenter.rac.ui.views.DetailsView?after=additions">
+         	<command commandId="com.teamcenter8.demo.handlers.NewFolderHandler"
+         		id="com.teamcenter8.demo.handlers.NewFolderHandler"
+         		icon="icons/newfolder_16.png">
+         	</command>
+         </menuContribution>-->
+         <!--
+           <menuContribution locationURI="toolbar:com.teamcenter.rac.ui.views.DetailsView?after=com.teamcenter.rac.views.refresh">
+         	<command commandId="com.teamcenter8.demo.handlers.NewFolderHandler"
+         		id="com.teamcenter8.demo.handlers.NewFolderHandler"
+         		icon="icons/newfolder_16.png">
+         	</command>
+         </menuContribution>          
+         -->
+         <!--
+           <menuContribution locationURI="popup:com.teamcenter.rac.ui.views.DetailsView?after=additions">
+         	<command commandId="com.teamcenter8.demo.handlers.NewFolderHandler"
+         		id="com.teamcenter8.demo.handlers.NewFolderHandler"
+         		icon="icons/newfolder_16.png">
+         	</command>
+         </menuContribution>   -->
+         <!--
+           <menuContribution locationURI="popup:org.eclipse.ui.popup.any?after=additions">
+         	<command commandId="com.teamcenter8.demo.handlers.NewFolderHandler"
+         		id="com.teamcenter8.demo.handlers.NewFolderHandler"
+         		icon="icons/newfolder_16.png">
+         	</command>
+         </menuContribution>     -->
+         <!--
+         <menuContribution locationURI="menu:file?after=additions">
+         	<command commandId="com.teamcenter8.demo.handlers.NewFolderHandler"
+         		id="com.teamcenter8.demo.handlers.NewFolderHandler"
+         		icon="icons/newfolder_16.png">
+         	</command>
+         </menuContribution>
+            -->     
+            <!-- 
+              <menuContribution locationURI="menu:file.new?after=additions">
+         	<command commandId="com.teamcenter8.demo.handlers.NewFolderHandler"
+         		id="com.teamcenter8.demo.handlers.NewFolderHandler"
+         		icon="icons/newfolder_16.png">
+         	</command>
+         </menuContribution>-->
+         <!--
+           <menuContribution locationURI="menu:file.new?after=file.newStart.newDataset">
+         	<command commandId="com.teamcenter8.demo.handlers.NewFolderHandler"
+         		id="com.teamcenter8.demo.handlers.NewFolderHandler"
+         		icon="icons/newfolder_16.png">
+         	</command>
+         </menuContribution>
+         -->   
+     	<menuContribution locationURI="menu:org.eclipse.ui.main.menu?after=additions">
+     		 <menu label="Demo PLM" id="demoplm"/>   		   		
+       </menuContribution>
+       <menuContribution locationURI="menu:demoplm?after=additions">
+     		   <menu label="New" id="demonew">
+     		   		<command commandId="com.teamcenter8.demo.handlers.NewFolderHandler" style="radio"
+         		id="com.teamcenter8.demo.handlers.NewFolderHandler" 
+         		icon="icons/newfolder_16.png">
+         		<visibleWhen> 
+         			<and>  
+         			<with variable="rac_command_suppression">
+                        <not>
+                            <iterate operator="or">
+                                <equals 
+                                    value="com.teamcenter8.demo.handlers.NewFolderHandler"/>
+                            </iterate>
+                        </not>
+                    </with>       			
+                     <reference definitionId="com.teamcenter.rac.ui.inMainPerspective"/>
+					
+					</and>           
+                </visibleWhen>
+         	</command>
+         	</menu>
+       </menuContribution>
+      
+   </extension>
+</plugin>
