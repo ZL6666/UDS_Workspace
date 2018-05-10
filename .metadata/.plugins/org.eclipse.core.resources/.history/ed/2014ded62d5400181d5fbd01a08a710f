@@ -1,0 +1,16 @@
+package com.teamcenter11.demo.handlers;
+
+import java.util.Map;
+
+import org.eclipse.ui.commands.AbstractHandler;
+import org.eclipse.ui.commands.ExecutionException;
+
+public class CreateItemHandler extends AbstractHandler {
+
+	@Override
+	public Object execute(Map arg0) throws ExecutionException {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

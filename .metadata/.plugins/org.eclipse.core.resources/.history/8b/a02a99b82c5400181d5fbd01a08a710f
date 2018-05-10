@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+
+   <extension
+         point="org.eclipse.ui.commands">
+      <command
+            name="新建文件夹"
+            id="com.teamcenter11.demo.handlers.CreateFolderHandler">
+      </command>
+      <command
+            name="新建Item"
+            id="com.teamcenter11.demo.handlers.CreateFolderHandler">
+      </command>
+      <command
+            name="新建Item"
+            id="com.teamcenter11.demo.handlers.CreateFolderHandler">
+      </command>
+   </extension>
+   <extension
+         point="org.eclipse.ui.handlers">
+      <handler
+            commandId="com.teamcenter11.demo.handlers.CreateFolderHandler"
+            class="com.teamcenter11.demo.handlers.CreateFolderHandler">
+      </handler>
+   </extension>
+   <extension
+         point="org.eclipse.ui.menus">
+      <menuContribution
+            locationURI="menu:org.eclipse.ui.main.menu?after=additions">
+         <menu
+               label="测试"
+               id="com.teamcenter11.demo.menus.test">
+            <command
+                  commandId="com.teamcenter11.demo.handlers.CreateFolderHandler"
+                  id="com.teamcenter11.demo.handlers.CreateFolderHandler">
+            </command>
+         </menu>
+      </menuContribution>
+   </extension>
+
+</plugin>

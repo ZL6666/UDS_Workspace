@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+
+   <extension
+   		 point="org.eclipse.ui.commands">
+       <command
+      		name="创建项目文件夹"
+      		id="com.uds.teamcenter.create.project.handler.folderhandler">
+      </command>
+      
+      <command
+      		name="齐套性检查"
+      		id="com.uds.teamcenter.create.project.handler.CheckReady">
+      </command>
+      
+      <command
+      		name="项目时间管理"
+      		id="com.uds.teamcenter.open.timeSchedule">
+      </command>
+      
+      <command
+      		name="项目项目权限管理"
+      		id="com.uds.teamcenter.open.project">
+      </command>
+      
+       <command
+      		name="时间表交付件管理"
+      		id="com.estun.schedule.creatitem">
+      </command>
+      
+      <command
+      		name="时间表任务角色批量替换"
+      		id="com.estun.schedule.changeRole">
+      </command>
+      
+   </extension>
+   <extension
+         point="org.eclipse.ui.handlers">
+     <handler
+      		commandId="com.uds.teamcenter.create.project.handler.folderhandler"
+      		class="com.uds.teamcenter.create.project.handler.folderhandler">
+      </handler>
+      
+       <handler
+      		commandId="com.uds.teamcenter.create.project.handler.CheckReady"
+      		class="com.uds.teamcenter.create.project.handler.CheckReady">
+      </handler>
+      
+      <handler
+      		commandId="com.uds.teamcenter.open.timeSchedule"
+      		class="com.uds.teamcenter.open.timeSchedule">
+      </handler>
+      
+      <handler
+      		commandId="com.uds.teamcenter.open.project"
+      		class="com.uds.teamcenter.open.project">
+      </handler>
+      
+      <handler
+      		commandId="com.estun.schedule.creatitem"
+      		class="com.estun.schedule.creatitem">
+      </handler>
+      
+      <handler
+      		commandId="com.estun.schedule.changeRole"
+      		class="com.estun.schedule.changeRole">
+      </handler>
+      
+   </extension>
+   
+   <extension
+         point="org.eclipse.ui.menus">
+      <menuContribution
+            locationURI="menu:org.eclipse.ui.main.menu?after=additions">
+         <menu
+               label="项目管理"
+               id="com.uds.tc.create.project.menus.sampleMenu">
+            <command
+            	  commandId="com.uds.teamcenter.create.project.handler.folderhandler"
+            	  style="radio"
+            	  id="com.uds.teamcenter.create.project.handler.folderhandler">
+            	  <visibleWhen> 
+         			<and>  
+         			<with variable="rac_command_suppression">
+                        <not>
+                            <iterate operator="or">
+                                <equals 
+                                    value="com.uds.teamcenter.create.project.handler.folderhandler"/>
+                            </iterate>
+                        </not>
+                    </with>       			
+					</and>           
+                </visibleWhen>
+            </command>
+
+			<command
+            	  commandId="com.uds.teamcenter.open.project"
+            	  style="radio"
+            	  id="com.uds.teamcenter.open.project">
+            	  <visibleWhen> 
+         			<and>  
+         			<with variable="rac_command_suppression">
+                        <not>
+                            <iterate operator="or">
+                                <equals 
+                                    value="com.uds.teamcenter.open.project"/>
+                            </iterate>
+                        </not>
+                    </with>       			
+					</and>           
+                </visibleWhen>
+             </command>
+
+          <!--  <command
+            	  commandId="com.uds.teamcenter.open.timeSchedule"
+            	  style="radio"
+            	  id="com.uds.teamcenter.open.timeSchedule">
+            	  <visibleWhen> 
+         			<and>  
+         			<with variable="rac_command_suppression">
+                        <not>
+                            <iterate operator="or">
+                                <equals 
+                                    value="com.uds.teamcenter.open.timeSchedule"/>
+                            </iterate>
+                        </not>
+                    </with>       			
+					</and>           
+                </visibleWhen>
+             </command> -->
+             
+             <command 
+            		commandId="com.estun.schedule.creatitem" 
+            		id="com.estun.schedule.creatitem"  style="push">
+                  <visibleWhen  checkEnabled="true">
+                  <and>
+	                   <reference
+	                           definitionId="com.teamcenter.rac.ui.inMainPerspective"/>	
+                    <with variable="rac_command_suppression">
+                     <not>
+                        <iterate operator="or">
+                           <equals value="com.estun.schedule.creatitem"></equals>
+                        </iterate>
+                     </not>
+                    </with>
+                    </and>
+                  </visibleWhen>    
+           </command>
+           
+           <command
+            	  commandId="com.uds.teamcenter.create.project.handler.CheckReady"
+            	  style="radio"
+            	  id="com.uds.teamcenter.create.project.handler.CheckReady">
+            	  <visibleWhen> 
+         			<and>  
+         			<with variable="rac_command_suppression">
+                        <not>
+                            <iterate operator="or">
+                                <equals 
+                                    value="com.uds.teamcenter.create.project.handler.CheckReady"/>
+                            </iterate>
+                        </not>
+                    </with>       			
+					</and>           
+                </visibleWhen>
+             </command>
+           
+           <command 
+            		commandId="com.estun.schedule.changeRole" 
+            		id="com.estun.schedule.changeRole"  style="push">
+                  <visibleWhen  checkEnabled="true">
+                  <and>
+                  <reference
+	                           definitionId="com.teamcenter.rac.schedule.inMainView"/>
+                    <with variable="rac_command_suppression">
+                     <not>
+                        <iterate operator="or">
+                           <equals value="com.estun.schedule.changeRole"></equals>
+                        </iterate>
+                     </not>
+                    </with>
+                    </and>
+                  </visibleWhen>    
+           </command> 
+             
+         </menu>
+      </menuContribution>
+      
+   </extension>
+   
+   <extension point="org.eclipse.ui.menus">
+   		<menuContribution locationURI="popup:org.eclipse.ui.popup.any?after=additions">
+   			<command 
+            	commandId="com.estun.schedule.creatitem" 
+            	id="com.estun.schedule.creatitem"  style="push">
+                  <visibleWhen  checkEnabled="true">
+                  <and>
+	                   <reference
+	                           definitionId="com.teamcenter.rac.ui.inMainPerspective"/>	
+	                 <iterate ifEmpty="false">
+                            <adapt type="com.teamcenter.rac.kernel.TCComponent">
+                                <or>
+                                    <test
+                                        property="com.teamcenter.rac.kernel.TCComponent.typeClass"
+                                        value="Schedule"/>
+                                </or>
+                            </adapt>
+                        </iterate>
+                    <with variable="rac_command_suppression">
+                     <not>
+                        <iterate operator="or">
+                           <equals value="com.estun.schedule.creatitem"></equals>
+                        </iterate>
+                     </not>
+                    </with>
+                    </and>
+                  </visibleWhen>    
+           </command>
+   		</menuContribution>
+   	</extension>
+
+</plugin>
