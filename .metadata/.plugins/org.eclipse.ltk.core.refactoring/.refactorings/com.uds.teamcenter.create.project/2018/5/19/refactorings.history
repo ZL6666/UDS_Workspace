@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;Activator.java&apos; to &apos;com.teamcenter11.demo/com.teamcenter11.demo&apos;&#x0D;&#x0A;- Original project: &apos;com.uds.teamcenter.create.project&apos;&#x0D;&#x0A;- Destination element: &apos;com.teamcenter11.demo/com.teamcenter11.demo&apos;&#x0D;&#x0A;- Original element: &apos;com.uds.teamcenter.create.project.Activator.java&apos;" description="Copy compilation unit" destination="=com.teamcenter11.demo/&lt;com.teamcenter11.demo" element1="/src&lt;com.uds.teamcenter.create.project{Activator.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1526002008474" units="1" version="1.0"/>
+</session>

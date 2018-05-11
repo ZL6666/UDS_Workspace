@@ -1,4 +1,4 @@
-package com.teamcenter11.demo.actions;
+package src.com.teamcenter11.demo.actions;
 
 import java.awt.Frame;
 
