@@ -1,3 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<<<<<<< HEAD
 <session version="1.0">&#x0A;<refactoring comment="Delete resource &apos;com.teamcenter8.demo&apos;" deleteContents="false" description="Delete resource &apos;com.teamcenter8.demo&apos;" element1="/com.teamcenter8.demo" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1526001980836"/>&#x0A;<refactoring comment="Delete 2 resources" deleteContents="false" description="Delete 2 resources" element1="/com.teamcenter11.demo" element2="/com.uds.teamcenter.create.project" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="2" stamp="1526002424840"/>
+=======
+<session version="1.0">
+<<<<<<< HEAD
+<refactoring comment="Delete resource &apos;com.teamcenter11.demo&apos;" deleteContents="false" description="Delete resource &apos;com.teamcenter11.demo&apos;" element1="/com.teamcenter11.demo" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1526001794214"/>
+=======
+<refactoring comment="Delete resource &apos;com.teamcenter8.demo&apos;" deleteContents="false" description="Delete resource &apos;com.teamcenter8.demo&apos;" element1="/com.teamcenter8.demo" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1526001980836"/>
+>>>>>>> bb103f831c8fb5d0a9edb7d49d87df17c670d864
+>>>>>>> a9c961f4240a85edecbbc55ab1d95910ea995a39
 </session>
