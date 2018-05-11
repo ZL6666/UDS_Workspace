@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config date="1525917753210" transient="false" version="3.0">
+<site enabled="true" policy="USER-EXCLUDE" updateable="true" url="platform:/base/">
+<feature id="com.teamcenter.rac.product" plugin-identifier="com.teamcenter.rac.aifrcp" url="features/com.teamcenter.rac.product_11000.2.0/" version="11000.2.0">
+</feature>
+<feature id="com.teamcenter.servcies" url="features/com.teamcenter.services_11000.2.0/" version="11000.2.0">
+</feature>
+<feature id="org.eclipse.platform" url="features/org.eclipse.platform_3.8.0.v20120607-071945-9gF7jI7nG5qByXMVdkhRMWBQlF4PnDCLybDCPQ/" version="3.8.0.v20120607-071945-9gF7jI7nG5qByXMVdkhRMWBQlF4PnDCLybDCPQ">
+</feature>
+<feature id="org.eclipse.rcp" url="features/org.eclipse.rcp_3.8.0.v20120528-1716-92BmGJTFw3Ez0W7_KvHqgZUR/" version="3.8.0.v20120528-1716-92BmGJTFw3Ez0W7_KvHqgZUR">
+</feature>
+<feature id="org.eclipse.equinox.p2.user.ui" url="features/org.eclipse.equinox.p2.user.ui_2.2.0.v20120524-0542-62DG9JXTlSiz-UbcP0w0KGe8CBOP/" version="2.2.0.v20120524-0542-62DG9JXTlSiz-UbcP0w0KGe8CBOP">
+</feature>
+</site>
+</config>

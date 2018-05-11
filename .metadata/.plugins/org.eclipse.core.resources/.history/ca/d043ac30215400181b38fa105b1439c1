@@ -1,0 +1,17 @@
+package com.teamcenter11.demo.command;
+
+import com.teamcenter.rac.aif.AbstractAIFDialog;
+import com.teamcenter.rac.kernel.TCComponent;
+import com.teamcenter.rac.kernel.TCSession;
+
+public class CreateFolderDialog extends AbstractAIFDialog {
+	
+	private TCSession session = null;
+	private TCComponent tccomponent = null;
+	
+	public CreateFolderDialog(CreateFolderCommand createFolderCommand,boolean b){
+		session = createFolderCommand.session;
+		tccomponent = (TCComponent) createFolderCommand.targerArray;
+		initUI();
+	}
+}

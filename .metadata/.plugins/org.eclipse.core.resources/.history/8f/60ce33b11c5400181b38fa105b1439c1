@@ -1,0 +1,5 @@
+package com.teamcenter11.demo.actions;
+
+public class CreateFolderCustomerAction extends AbstractAIFAction {
+
+}

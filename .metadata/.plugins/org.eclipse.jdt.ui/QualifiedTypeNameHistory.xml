@@ -1,2 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<qualifiedTypeNameHistroy/>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="com.teamcenter.rac.aif.common.actions.AbstractAIFAction"/>
+<fullyQualifiedTypeName name="com.teamcenter.rac.aif.AbstractAIFCommand"/>
+<fullyQualifiedTypeName name="com.teamcenter.rac.aif.AbstractAIFApplication"/>
+<fullyQualifiedTypeName name="com.teamcenter.rac.aif.kernel.InterfaceAIFComponent"/>
+<fullyQualifiedTypeName name="com.teamcenter.rac.util.MessageBox"/>
+<fullyQualifiedTypeName name="com.teamcenter.rac.aif.AbstractAIFDialog"/>
+<fullyQualifiedTypeName name="com.teamcenter11.demo.command.CreateFolderCommand"/>
+<fullyQualifiedTypeName name="com.teamcenter.rac.kernel.TCComponent"/>
+<fullyQualifiedTypeName name="com.teamcenter.rac.kernel.TCSession"/>
+<fullyQualifiedTypeName name="com.teamcenter.rac.kernel.TCComponentFolderType"/>
+<fullyQualifiedTypeName name="com.teamcenter.rac.aifrcp.AIFUtility"/>
+<fullyQualifiedTypeName name="com.teamcenter11.demo.actions.CreateFolderAction"/>
+</qualifiedTypeNameHistroy>
