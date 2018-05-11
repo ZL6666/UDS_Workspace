@@ -1,5 +1,0 @@
-package com.teamcenter11.demo.actions;
-
-public class CreateFolderAction extends AbstractAIFAction {
-
-}

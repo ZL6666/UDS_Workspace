@@ -1,7 +1,0 @@
-package com.teamcenter11.demo.actions;
-
-import com.teamcenter.rac.aif.common.actions.AbstractAIFAction;
-
-public class CreateFolderAction extends AbstractAIFAction {
-
-}
