@@ -278,6 +278,14 @@ This warning can be switched off on the Team > Git > Confirmations and Warnings 
 !MESSAGE Error reading manifest for C:\Siemens\Teamcenter11\portal\plugins\Att0SoaAttrTargetMgmtTypes_11000.2.0.jar
 !SUBENTRY 1 org.eclipse.pde.core 4 0 2018-05-10 10:18:19.183
 !MESSAGE Invalid manifest header Export-Package: ""
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> f48e02e635f0a811c477bd8084792c7da1263417
+=======
+>>>>>>> f48e02e635f0a811c477bd8084792c7da1263417
 !SESSION 2018-05-10 11:07:11.806 -----------------------------------------------
 eclipse.buildId=4.5.2.M20160212-1500
 java.version=1.7.0_80
@@ -398,6 +406,7 @@ user global configuration and to define the default location to store repositori
 not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
 EGit might behave differently since they see different configuration options.
 This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+<<<<<<< HEAD
 !SESSION 2018-05-11 08:45:57.693 -----------------------------------------------
 eclipse.buildId=4.5.2.M20160212-1500
 java.version=1.7.0_80
@@ -500,3 +509,12 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:608)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1515)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1488)
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> f48e02e635f0a811c477bd8084792c7da1263417
+=======
+>>>>>>> f48e02e635f0a811c477bd8084792c7da1263417
+=======
+>>>>>>> f48e02e635f0a811c477bd8084792c7da1263417
+>>>>>>> 8b43ac1f8089c9aa79718692f7a1a633bd8aa1fa
