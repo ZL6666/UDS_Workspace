@@ -153,9 +153,15 @@
           <tags>persp.showIn:org.eclipse.tm.terminal.view.ui.TerminalsView</tags>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
           <children xsi:type="basic:PartSashContainer" xmi:id="_y8qAYVOCEeifVZ2LgnMdWg" selectedElement="_y8qAalOCEeifVZ2LgnMdWg" horizontal="true">
             <children xsi:type="basic:PartSashContainer" xmi:id="_y8qAYlOCEeifVZ2LgnMdWg" containerData="1738" selectedElement="_y8qAY1OCEeifVZ2LgnMdWg">
               <children xsi:type="basic:PartStack" xmi:id="_y8qAY1OCEeifVZ2LgnMdWg" elementId="topLeft" containerData="6000" selectedElement="_y8qAZFOCEeifVZ2LgnMdWg">
+=======
+          <children xsi:type="basic:PartSashContainer" xmi:id="_nGjk3lQ1EeisbaiG0JVnJw" selectedElement="_nGjk51Q1EeisbaiG0JVnJw" horizontal="true">
+            <children xsi:type="basic:PartSashContainer" xmi:id="_nGjk31Q1EeisbaiG0JVnJw" containerData="1738" selectedElement="_nGjk4FQ1EeisbaiG0JVnJw">
+              <children xsi:type="basic:PartStack" xmi:id="_nGjk4FQ1EeisbaiG0JVnJw" elementId="topLeft" containerData="6000" selectedElement="_nGjk4VQ1EeisbaiG0JVnJw">
+>>>>>>> f48e02e635f0a811c477bd8084792c7da1263417
 =======
           <children xsi:type="basic:PartSashContainer" xmi:id="_nGjk3lQ1EeisbaiG0JVnJw" selectedElement="_nGjk51Q1EeisbaiG0JVnJw" horizontal="true">
             <children xsi:type="basic:PartSashContainer" xmi:id="_nGjk31Q1EeisbaiG0JVnJw" containerData="1738" selectedElement="_nGjk4FQ1EeisbaiG0JVnJw">
@@ -178,6 +184,7 @@
             </children>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             <children xsi:type="basic:PartSashContainer" xmi:id="_y8qAalOCEeifVZ2LgnMdWg" containerData="8262" selectedElement="_y8qAcFOCEeifVZ2LgnMdWg">
               <children xsi:type="basic:PartSashContainer" xmi:id="_y8qAa1OCEeifVZ2LgnMdWg" containerData="7500" selectedElement="_y8qAbVOCEeifVZ2LgnMdWg" horizontal="true">
                 <children xsi:type="advanced:Placeholder" xmi:id="_y8qAbFOCEeifVZ2LgnMdWg" elementId="org.eclipse.ui.editorss" containerData="7500" ref="_uwOcMFOCEeifVZ2LgnMdWg"/>
@@ -187,6 +194,8 @@
 =======
 =======
 >>>>>>> f48e02e635f0a811c477bd8084792c7da1263417
+=======
+>>>>>>> f48e02e635f0a811c477bd8084792c7da1263417
             <children xsi:type="basic:PartSashContainer" xmi:id="_nGjk51Q1EeisbaiG0JVnJw" containerData="8262" selectedElement="_nGjk6FQ1EeisbaiG0JVnJw">
               <children xsi:type="basic:PartSashContainer" xmi:id="_nGjk6FQ1EeisbaiG0JVnJw" containerData="7649" selectedElement="_nGjk6VQ1EeisbaiG0JVnJw" horizontal="true">
                 <children xsi:type="advanced:Placeholder" xmi:id="_nGjk6VQ1EeisbaiG0JVnJw" elementId="org.eclipse.ui.editorss" containerData="7500" ref="_nGjmI1Q1EeisbaiG0JVnJw"/>
@@ -194,6 +203,9 @@
                   <children xsi:type="advanced:Placeholder" xmi:id="_nGjk61Q1EeisbaiG0JVnJw" elementId="org.eclipse.ui.views.ContentOutline" ref="_nGjmalQ1EeisbaiG0JVnJw"/>
                   <children xsi:type="advanced:Placeholder" xmi:id="_nGjk7FQ1EeisbaiG0JVnJw" elementId="org.eclipse.mylyn.tasks.ui.views.tasks" ref="_nGjmllQ1EeisbaiG0JVnJw"/>
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> f48e02e635f0a811c477bd8084792c7da1263417
+=======
 >>>>>>> f48e02e635f0a811c477bd8084792c7da1263417
 =======
 >>>>>>> f48e02e635f0a811c477bd8084792c7da1263417
@@ -577,8 +589,11 @@
         <tags>Draggable</tags>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         <children xsi:type="menu:HandledToolItem" xmi:id="_ZnMJUFP4Eeidcd3K-daoZQ" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_uDIGK1OCEeifVZ2LgnMdWg"/>
 =======
+=======
+>>>>>>> f48e02e635f0a811c477bd8084792c7da1263417
 =======
 >>>>>>> f48e02e635f0a811c477bd8084792c7da1263417
         <children xsi:type="menu:DirectToolItem" xmi:id="_nGkL31Q1EeisbaiG0JVnJw" elementId="new.group">
@@ -616,6 +631,9 @@
           <tags>Opaque</tags>
         </children>
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> f48e02e635f0a811c477bd8084792c7da1263417
+=======
 >>>>>>> f48e02e635f0a811c477bd8084792c7da1263417
 =======
 >>>>>>> f48e02e635f0a811c477bd8084792c7da1263417
@@ -710,8 +728,11 @@
         <tags>Draggable</tags>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         <children xsi:type="menu:HandledToolItem" xmi:id="_ZnMJWlP4Eeidcd3K-daoZQ" elementId="org.eclipse.ui.window.pinEditor" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_uC-WQFOCEeifVZ2LgnMdWg"/>
 =======
+=======
+>>>>>>> f48e02e635f0a811c477bd8084792c7da1263417
 =======
 >>>>>>> f48e02e635f0a811c477bd8084792c7da1263417
         <children xsi:type="menu:DirectToolItem" xmi:id="_nGkMOlQ1EeisbaiG0JVnJw" elementId="history.group">
@@ -746,6 +767,9 @@
           <tags>Opaque</tags>
         </children>
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> f48e02e635f0a811c477bd8084792c7da1263417
+=======
 >>>>>>> f48e02e635f0a811c477bd8084792c7da1263417
 =======
 >>>>>>> f48e02e635f0a811c477bd8084792c7da1263417

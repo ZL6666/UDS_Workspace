@@ -280,7 +280,10 @@ This warning can be switched off on the Team > Git > Confirmations and Warnings 
 !MESSAGE Invalid manifest header Export-Package: ""
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> f48e02e635f0a811c477bd8084792c7da1263417
 =======
 >>>>>>> f48e02e635f0a811c477bd8084792c7da1263417
 !SESSION 2018-05-10 11:07:11.806 -----------------------------------------------
@@ -404,6 +407,9 @@ not correct please set the HOME environment variable and restart Eclipse. Otherw
 EGit might behave differently since they see different configuration options.
 This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> f48e02e635f0a811c477bd8084792c7da1263417
+=======
 >>>>>>> f48e02e635f0a811c477bd8084792c7da1263417
 =======
 >>>>>>> f48e02e635f0a811c477bd8084792c7da1263417
