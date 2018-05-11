@@ -1,5 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<config date="1526002502436" transient="false" version="3.0">
+<<<<<<< HEAD
+<config date="1525999933431" transient="false" version="3.0">
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<config date="1525918780343" transient="false" version="3.0">
+=======
+<config date="1525944229446" transient="false" version="3.0">
+>>>>>>> f48e02e635f0a811c477bd8084792c7da1263417
+=======
+<config date="1525944229446" transient="false" version="3.0">
+>>>>>>> f48e02e635f0a811c477bd8084792c7da1263417
+=======
+<config date="1525944229446" transient="false" version="3.0">
+>>>>>>> f48e02e635f0a811c477bd8084792c7da1263417
+>>>>>>> 8b43ac1f8089c9aa79718692f7a1a633bd8aa1fa
 <site enabled="true" policy="USER-EXCLUDE" updateable="true" url="platform:/base/">
 <feature id="com.teamcenter.rac.product" plugin-identifier="com.teamcenter.rac.aifrcp" url="features/com.teamcenter.rac.product_11000.2.0/" version="11000.2.0">
 </feature>

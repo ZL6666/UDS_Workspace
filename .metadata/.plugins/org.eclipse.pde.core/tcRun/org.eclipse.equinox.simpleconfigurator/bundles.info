@@ -163,6 +163,7 @@ TcSoaWireHarnessTypes,11000.2.0,file:/C:/Siemens/Teamcenter11/portal/plugins/TcS
 TcSoaWorkflowLoose,11000.2.0,file:/C:/Siemens/Teamcenter11/portal/plugins/TcSoaWorkflowLoose_11000.2.0.jar,4,false
 TcSoaWorkflowRac,11000.2.0,file:/C:/Siemens/Teamcenter11/portal/plugins/TcSoaWorkflowRac_11000.2.0.jar,4,false
 TcSoaWorkflowTypes,11000.2.0,file:/C:/Siemens/Teamcenter11/portal/plugins/TcSoaWorkflowTypes_11000.2.0.jar,4,false
+Teamcenter11Demo,1.0.0.qualifier,file:/C:/Users/infodba/Desktop/UDS_Workspace/Teamcenter11Demo/,4,false
 antlr_340,3.4.0,file:/C:/Siemens/Teamcenter11/portal/plugins/antlr_340/,4,false
 applauncher,11000.2.0,file:/C:/Siemens/Teamcenter11/portal/plugins/applauncher.jar,4,false
 ca.odell.glazedlists,1.8.0,file:/C:/Siemens/Teamcenter11/portal/plugins/ca.odell.glazedlists.jar,4,false
@@ -342,8 +343,6 @@ com.teamcenter.rac.workflow,11000.2.0,file:/C:/Siemens/Teamcenter11/portal/plugi
 com.teamcenter.rac.workflow.processdesigner,11000.2.0,file:/C:/Siemens/Teamcenter11/portal/plugins/com.teamcenter.rac.workflow.processdesigner_11000.2.0.jar,4,false
 com.teamcenter.rac.workflow.processviewer,11000.2.0,file:/C:/Siemens/Teamcenter11/portal/plugins/com.teamcenter.rac.workflow.processviewer_11000.2.0.jar,4,false
 com.teamcenter.siemens.lookandfeel,11000.2.0,file:/C:/Siemens/Teamcenter11/portal/plugins/com.teamcenter.siemens.lookandfeel_11000.2.0/,4,false
-com.teamcenter11.demo,1.0.0.qualifier,file:/C:/Users/infodba/Desktop/UDS_Workspace/com.teamcenter11.demo/,4,false
-com.uds.teamcenter.create.project,1.0.1.7,file:/C:/Users/infodba/Desktop/UDS_Workspace/com.uds.teamcenter.create.project/,4,false
 commons_xmlschema,1.3.2,file:/C:/Siemens/Teamcenter11/portal/plugins/commons_xmlschema/,4,false
 configuration,11000.2.0,file:/C:/Siemens/Teamcenter11/portal/plugins/configuration_11000.2.0/,4,false
 icctstubs,11000.2.0,file:/C:/Siemens/Teamcenter11/portal/plugins/icctstubs.jar,4,false
