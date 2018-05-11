@@ -1,20 +1,4 @@
-<<<<<<< HEAD
-# List of external plug-in models previously loaded. Timestamp: 1525999895800
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-# List of external plug-in models previously loaded. Timestamp: 1525918699526
-=======
-# List of external plug-in models previously loaded. Timestamp: 1525941104038
->>>>>>> f48e02e635f0a811c477bd8084792c7da1263417
-=======
-# List of external plug-in models previously loaded. Timestamp: 1525941104038
->>>>>>> f48e02e635f0a811c477bd8084792c7da1263417
-=======
-# List of external plug-in models previously loaded. Timestamp: 1525941104038
->>>>>>> f48e02e635f0a811c477bd8084792c7da1263417
->>>>>>> 8b43ac1f8089c9aa79718692f7a1a633bd8aa1fa
+# List of external plug-in models previously loaded. Timestamp: 1526001726048
 file:/C:/Siemens/Teamcenter11/portal/plugins/Ads0SoaAdsFoundationRac_11000.2.0.jar
 file:/C:/Siemens/Teamcenter11/portal/plugins/Ads0SoaAdsFoundationTypes_11000.2.0.jar
 file:/C:/Siemens/Teamcenter11/portal/plugins/antlr_340/

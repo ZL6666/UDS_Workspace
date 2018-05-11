@@ -65,6 +65,7 @@ public class CreateItem extends JFrame {
 		JButton cancelBtn = new JButton("取消");
 		cancelBtn.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
+				
 			}
 		});
 		cancelBtn.setFont(new Font("宋体", Font.PLAIN, 12));
